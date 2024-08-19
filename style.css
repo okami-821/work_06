@@ -612,7 +612,7 @@ cursor: pointer;
     padding: 0;
   }
   .parallax_content {
-  background-size: containe;
+  background-size: contain;
 }
   .img_bg_01 {
     background-image: url(images/img07_sp.jpg);   
