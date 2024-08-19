@@ -61,7 +61,7 @@ a {
 .parallax_content {
   height: 100vh;
   background-attachment: fixed;
-  background-position: center center;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   padding: 1rem;
@@ -105,7 +105,7 @@ a {
 
 /* mv */
 .img_bg_01 {
-  background-image: url(images/img07.jpg);   
+  background-image: url(images/img07_pc.jpg);   
 }
 
 .mv__title {
@@ -114,8 +114,7 @@ a {
 
 .block {
   width: 100%;
-  height: 100%;
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -611,6 +610,9 @@ cursor: pointer;
 @media (max-width: 780px) {
   .block {
     padding: 0;
+  }
+  .img_bg_01 {
+    background-image: url(images/img07_sp.jpg);   
   }
   .c-content {
     padding: 3rem 2rem;
