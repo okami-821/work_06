@@ -62,7 +62,7 @@ a {
   height: 100vh;
   background-attachment: fixed;
   background-position: center;
-  background-size: auto;
+  background-size: cover;
   background-repeat: no-repeat;
   padding: 1rem;
 }
@@ -611,6 +611,9 @@ cursor: pointer;
   .block {
     padding: 0;
   }
+  .parallax_content {
+  background-size: containe;
+}
   .img_bg_01 {
     background-image: url(images/img07_sp.jpg);   
   }
